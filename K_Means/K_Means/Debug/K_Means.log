@@ -1,4 +1,4 @@
-﻿Build started 27-09-2021 23:46:27.
+﻿Build started 29-09-2021 01:31:18.
      1>Project "C:\workspace\iitg\Sem1\speech_processing\sp_assignments\Vector-Quantization\K_Means\K_Means\K_Means.vcxproj" on node 2 (build target(s)).
      1>InitializeBuildStatus:
          Creating "Debug\K_Means.unsuccessfulbuild" because "AlwaysCreate" was specified.
@@ -6,7 +6,13 @@
          All outputs are up-to-date.
          C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\K_Means.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt K_Means.cpp
          K_Means.cpp
-     1>c:\workspace\iitg\sem1\speech_processing\sp_assignments\vector-quantization\k_means\k_means\k_means.cpp(56): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
+     1>c:\workspace\iitg\sem1\speech_processing\sp_assignments\vector-quantization\k_means\k_means\k_means.cpp(23): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : see declaration of 'fopen'
+     1>c:\workspace\iitg\sem1\speech_processing\sp_assignments\vector-quantization\k_means\k_means\k_means.cpp(38): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(197) : see declaration of 'strtok'
+     1>c:\workspace\iitg\sem1\speech_processing\sp_assignments\vector-quantization\k_means\k_means\k_means.cpp(43): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(197) : see declaration of 'strtok'
+     1>c:\workspace\iitg\sem1\speech_processing\sp_assignments\vector-quantization\k_means\k_means\k_means.cpp(78): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
        ManifestResourceCompile:
          All outputs are up-to-date.
        Link:
@@ -26,4 +32,4 @@
 
 Build succeeded.
 
-Time Elapsed 00:00:03.02
+Time Elapsed 00:00:01.66

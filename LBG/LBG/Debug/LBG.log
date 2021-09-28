@@ -1,4 +1,4 @@
-﻿Build started 29-09-2021 00:34:13.
+﻿Build started 29-09-2021 01:34:03.
      1>Project "C:\workspace\iitg\Sem1\speech_processing\sp_assignments\Vector-Quantization\LBG\LBG\LBG.vcxproj" on node 2 (build target(s)).
      1>InitializeBuildStatus:
          Creating "Debug\LBG.unsuccessfulbuild" because "AlwaysCreate" was specified.
@@ -12,7 +12,7 @@
                  c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(197) : see declaration of 'strtok'
      1>c:\workspace\iitg\sem1\speech_processing\sp_assignments\vector-quantization\lbg\lbg\lbg.cpp(43): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
                  c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(197) : see declaration of 'strtok'
-     1>c:\workspace\iitg\sem1\speech_processing\sp_assignments\vector-quantization\lbg\lbg\lbg.cpp(206): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>c:\workspace\iitg\sem1\speech_processing\sp_assignments\vector-quantization\lbg\lbg\lbg.cpp(208): warning C4305: 'initializing' : truncation from 'double' to 'float'
        ManifestResourceCompile:
          All outputs are up-to-date.
        Link:
@@ -32,4 +32,4 @@
 
 Build succeeded.
 
-Time Elapsed 00:00:01.62
+Time Elapsed 00:00:01.98
