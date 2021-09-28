@@ -53,6 +53,7 @@ void create_codebook(double *universe, double *codebook, int k, int universe_siz
 	int num = 0;
 	int lower = 0;
 	int upper = universe_size  - 1;
+	srand(time(0));
     for (row = 0; row < k; row++) 
 	{
         num = lower + (rand() % (upper - lower + 1));
@@ -122,7 +123,7 @@ void k_means(double universe[6340][12], double codebook[8][12], int k, int unive
 					// printf("cell %d = %d\n", i, cell[i]);
 				}
 			}
-			distortion += min_dist;
+			distortion += min_dist;	// 
 			for(j = 0; j < vector_size; j++) {
 				new_codebook[cell[i]][j] += universe[i][j];
 			}
@@ -150,7 +151,7 @@ int _tmain(int argc, _TCHAR* argv[])
 	read_universe(universe[0], universe_size, vector_size);
 	
 	double codebook[8][12];
-	srand(time(0));
+	
 	create_codebook(universe[0], codebook[0], k, universe_size, vector_size);
 	
 	k_means(universe, codebook, k, universe_size, vector_size);
