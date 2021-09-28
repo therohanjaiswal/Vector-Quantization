@@ -93,7 +93,8 @@ double** k_means(double **universe, double **codebook, int K, int universe_size,
 		distortion = 0.0;
 
 		// initialise cell_count and new_codebook with 0
-		for(i = 0; i < K; i++) {
+		for(i = 0; i < K; i++) 
+		{
 			*(cell_count + i) = 0;
 			for (j = 0; j<p; j++) {
 				*(*(new_codebook + i) + j) = 0.0;
@@ -128,7 +129,8 @@ double** k_means(double **universe, double **codebook, int K, int universe_size,
 		}
 
 		// finding centroid of each cell(region) and creating the codebook
-		for(i = 0; i < K; i++) {
+		for(i = 0; i < K; i++) 
+		{
 			for(j = 0; j < p; j++) {
 				*(*(codebook + i) + j) = *(*(new_codebook + i) + j)/cell_count[i];
 			}

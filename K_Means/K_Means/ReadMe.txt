@@ -1,6 +1,29 @@
 ========================================================================
-    CONSOLE APPLICATION : K_Means Project Overview
+    CONSOLE APPLICATION : K Means Algorithm Implementation
 ========================================================================
+
+I. Assumptions 
+	- Threshold value taken = 0.00001
+	- Number of codevectors in Universe.csv file = 6340
+	- Codebook size = 8
+	- Dimention of each codevector = 12
+
+II. Input File
+	- Universe.csv file
+
+III. Steps to execute the code
+	1. Open the project in MS Visual Studio
+	2. Universe.csv file is already present in the project, so compile and execute the code.
+	
+IV. Output
+	- Console ouput will be generated showing the following things:
+		1. Initial codebook
+		2. Distortions computed while executing K Means Algorithm
+		3. Final codebook which is optimized. 
+
+Submitted by - ROHAN JAISWAL, 214101042, MTECH CSE.
+
+--------------------------------------------------------------------------------------------------------
 
 AppWizard has created this K_Means application for you.
 

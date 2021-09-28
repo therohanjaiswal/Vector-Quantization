@@ -192,7 +192,7 @@ double** K_Means(double** universe, double** codebook, int K, int universe_size,
 int _tmain(int argc, _TCHAR* argv[])
 {
 	int universe_size = 6340;	// number of codevectors in the universe
-	int p = 12;					// dimention of a vector
+	int p = 12;					// dimension of a vector
 	int K = 8;					// number of codevectors in the final codebook
 	int i = 0, j = 0;			// iterators
 	double **universe = NULL;	// double pointer to store codevectors of universe
